@@ -1,0 +1,501 @@
+raw_expense_row_id,invoice_number,expense_date,amount,notes,exp_category_id,expense_category,approver_empl_id,approver_first_name,approver_last_name,approver_job_title,approver_email,approver_phone_number,office_id,office_name,office_street_address,office_city,office_state,office_zip_code,office_phone_number
+1,20001,2026-03-02,600.64,Water delivery,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,201-555-1111
+2,20002,2026-03-03,600.83,Paper order,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+3,20003,2026-03-04,1496.68,Light bulbs,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+4,20004,2026-03-05,352.07,Desk chairs,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+5,20005,2026-03-06,2338.7,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+6,20006,2026-03-07,146.65,Water delivery,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+7,20007,2026-03-08,2736.73,Light bulbs,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+8,20008,2026-03-09,1035.22,Paper order,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+9,20009,2026-03-10,2524.46,HVAC tune up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+10,20010,2026-03-11,11406.36,Shared workspace fee,5,Rent,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+11,20011,2026-03-12,1123.3,electric bill,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+12,20012,2026-03-13,1136.63,HVAC tune up,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+13,20013,2026-03-14,3658.98,Paint touch-up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+14,20014,2026-03-15,343.51,Broker event promo,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+15,20015,2026-03-16,2010,Internet overage,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+16,20016,2026-03-17,1906.39,HVAC tune up,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+17,20017,2026-03-18,980.28,office snacks,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+18,20018,2026-03-19,429.21,Conference room cables,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+19,20019,2026-03-20,603.52,Paper order,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+20,20020,2026-03-21,2363.69,Neighborhood mailers,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+21,20021,2026-03-22,2129.62,Gas service,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+22,20022,2026-03-23,2432.33,Water delivery,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+23,20023,2026-03-24,2085.44,broker event promo,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+24,20024,2026-03-25,2071.6,gas service,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,MONTCLAIR OFFICE,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+25,20025,2026-03-26,659.52,Breakroom supplies,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+26,20026,2026-03-27,822.97,Desk chairs,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+27,20027,2026-03-28,1847.21,Spring digital ads,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+28,20028,2026-03-29,175.96,paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+29,20029,2026-03-30,3177.11,Broker event promo,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+30,20030,2026-03-31,598.23,Broker event promo,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+31,20031,2026-04-01,3579.39,Spring digital ads,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+32,20032,2026-04-02,2131.11,Paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,203-555-2020
+33,20033,2026-04-03,5993.81,Monthly branch rent,5,Rent,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+34,20034,2026-04-04,1079.77,Window repair,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+35,20035,2026-04-05,2568.09,Neighborhood mailers,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+36,20036,2026-04-06,3345.47,HVAC tune up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St.,New Haven,CT,6510,2035552020
+37,20037,2026-04-07,2226.83,Neighborhood mailers,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+38,20038,2026-04-08,454.71,Water delivery,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+39,20039,2026-04-09,1097.93,Water delivery,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+40,20040,2026-04-10,2057.5,Office snacks,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+41,20041,2026-04-11,242.63,Paper order,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+42,20042,2026-04-12,4317.66,Neighborhood mailers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+43,20043,2026-04-13,981.3,Carpet cleaning,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+44,20044,2026-04-14,4667.74,Broker event promo,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+45,20045,2026-04-15,2586.24,Broker event promo,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+46,20046,2026-04-16,1211.86,Paint touch-up,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+47,20047,2026-04-17,1010.62,Conference room cables,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+48,20048,2026-04-18,3230.56,Photography flyers,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+49,20049,2026-04-19,1872.86,Spring digital ads,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+50,20050,2026-03-01,3887.91,photography flyers,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+51,20051,2026-03-02,762.61,Spring digital ads,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+52,20052,2026-03-03,1169.93,Light bulbs,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+53,20053,2026-03-04,1180.96,Printer toner,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+54,20054,2026-03-05,1156.11,Broker event promo,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+55,20055,2026-03-06,354.67,Electric bill,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+56,20056,2026-03-07,1183.49,Neighborhood mailers,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+57,20057,2026-03-08,2614.09,Light bulbs,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+58,20058,2026-03-09,2513.98,Water delivery,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+59,20059,2026-03-10,1733.6,Carpet cleaning,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,STAMFORD,CT,6901,2035551818
+60,20060,2026-03-11,2288.93,Broker event promo,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+61,20061,2026-03-12,2313.58,electric bill,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,WHITE PLAINS OFFICE,10 Main St,White Plains,NY,10601,9145551717
+62,20062,2026-03-13,1339.35,Gas service,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+63,20063,2026-03-14,264.41,Desk chairs,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+64,20064,2026-03-15,1153.57,Conference room cables,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+65,20065,2026-03-16,2084.93,Carpet cleaning,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+66,20066,2026-03-17,5708.8,Monthly branch rent,5,Rent,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+67,20067,2026-03-18,126.17,Printer toner,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+68,20068,2026-03-19,1155.89,Water delivery,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,STAMFORD,CT,6901,2035551818
+69,20069,2026-03-20,1715.83,Internet overage,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+70,20070,2026-03-21,523.43,Photography flyers,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+71,20071,2026-03-22,1406.16,Water delivery,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+72,20072,2026-03-23,472.88,Spring digital ads,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+73,20073,2026-03-24,565.64,Breakroom supplies,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+74,20074,2026-03-25,1219.58,gas service,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+75,20075,2026-03-26,2156.86,Spring digital ads,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+76,20076,2026-03-27,6751.86,Shared workspace fee,5,Rent,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+77,20077,2026-03-28,905.41,Conference room cables,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+78,20078,2026-03-29,5649.82,Shared workspace fee,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+79,20079,2026-03-30,649.71,Paint touch-up,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+80,20080,2026-03-31,1902.92,Neighborhood mailers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+81,20081,2026-04-01,2579.77,Office snacks,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+82,20082,2026-04-02,1432.94,Paint touch-up,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+83,20083,2026-04-03,531.42,Printer toner,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+84,20084,2026-04-04,335.18,Breakroom supplies,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+85,20085,2026-04-05,4007.04,Carpet cleaning,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+86,20086,2026-04-06,209.54,Internet overage,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+87,20087,2026-04-07,1216.59,Office snacks,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+88,20088,2026-04-08,3639.51,MLS premium placement,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+89,20089,2026-04-09,2159.21,Carpet cleaning,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+90,20090,2026-04-10,3300.34,carpet cleaning,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+91,20091,2026-04-11,1635.61,Spring digital ads,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+92,20092,2026-04-12,201.77,Printer toner,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+93,20093,2026-04-13,6868.93,Shared workspace fee,5,Rent,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+94,20094,2026-04-14,877.49,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+95,20095,2026-04-15,1122.56,Breakroom supplies,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+96,20096,2026-04-16,6617.52,Storage room lease,5,Rent,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+97,20097,2026-04-17,1532.13,Office snacks,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+98,20098,2026-04-18,1255.89,Light bulbs,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+99,20099,2026-04-19,3559.73,Broker event promo,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+100,20100,2026-03-01,1925.17,Paint touch-up,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+101,20101,2026-03-02,662.94,HVAC tune up,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+102,20102,2026-03-03,1890.29,internet overage,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,MONTCLAIR OFFICE,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+103,20103,2026-03-04,9180.29,Storage room lease,5,Rent,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+104,20104,2026-03-05,209.1,Internet overage,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+105,20105,2026-03-06,550.54,Paper order,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+106,20106,2026-03-07,4151.67,HVAC tune up,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+107,20107,2026-03-08,138.43,Internet overage,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,212-555-1515
+108,20108,2026-03-09,418.38,Office snacks,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+109,20109,2026-03-10,7379.71,Shared workspace fee,5,Rent,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+110,20110,2026-03-11,8674.46,Shared workspace fee,5,Rent,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+111,20111,2026-03-12,5660.21,Monthly branch rent,5,Rent,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+112,20112,2026-03-13,4028.14,Light bulbs,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+113,20113,2026-03-14,5314.02,Storage room lease,5,Rent,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+114,20114,2026-03-15,1161.23,Neighborhood mailers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+115,20115,2026-03-16,219.45,Desk chairs,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+116,20116,2026-03-17,360.76,Conference room cables,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+117,20117,2026-03-18,957.42,Breakroom supplies,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,201-555-1111
+118,20118,2026-03-19,1750.08,Electric bill,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+119,20119,2026-03-20,9665.18,Monthly branch rent,5,Rent,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+120,20120,2026-03-21,9937.17,Monthly branch rent,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+121,20121,2026-03-22,1629.95,Office snacks,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+122,20122,2026-03-23,1577.66,HVAC tune up,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+123,20123,2026-03-24,3160.14,Paint touch-up,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+124,20124,2026-03-25,1305.52,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+125,20125,2026-03-26,312.83,Water delivery,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,GREENWICH,CT,6830,2035551919
+126,20126,2026-03-27,6592.17,Shared workspace fee,5,Rent,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+127,20127,2026-03-28,4373.62,Photography flyers,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,212-555-1515
+128,20128,2026-03-29,2994.7,Spring digital ads,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+129,20129,2026-03-30,682.09,Neighborhood mailers,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+130,20130,2026-03-31,2469.4,Electric bill,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+131,20131,2026-04-01,2445.52,Electric bill,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+132,20132,2026-04-02,169.46,Conference room cables,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+133,20133,2026-04-03,484.98,MLS premium placement,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+134,20134,2026-04-04,6998.12,Shared workspace fee,5,Rent,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+135,20135,2026-04-05,206.97,broker event promo,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,WHITE PLAINS OFFICE,10 Main St,White Plains,NY,10601,9145551717
+136,20136,2026-04-06,4842.44,Spring digital ads,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+137,20137,2026-04-07,5850.67,storage room lease,5,Rent,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+138,20138,2026-04-08,1902.59,HVAC tune up,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+139,20139,2026-04-09,4317.23,Spring digital ads,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,GREENWICH,CT,6830,2035551919
+140,20140,2026-04-10,1092.52,Carpet cleaning,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+141,20141,2026-04-11,3706.83,Paint touch-up,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+142,20142,2026-04-12,1304.78,Carpet cleaning,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+143,20143,2026-04-13,1865.43,HVAC tune up,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+144,20144,2026-04-14,1585.82,hvac tune up,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+145,20145,2026-04-15,4410.51,shared workspace fee,5,Rent,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+146,20146,2026-04-16,6282.7,Storage room lease,5,Rent,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+147,20147,2026-04-17,870.64,desk chairs,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,PRINCETON OFFICE,55 Nassau St,Princeton,NJ,8542,6095551414
+148,20148,2026-04-18,2640.29,Paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,203-555-2020
+149,20149,2026-04-19,4023.42,HVAC tune up,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+150,20150,2026-03-01,4183.2,HVAC tune up,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+151,20151,2026-03-02,69.95,Electric bill,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+152,20152,2026-03-03,2101.86,Electric bill,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+153,20153,2026-03-04,1067.21,Printer toner,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+154,20154,2026-03-05,988.61,MLS premium placement,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+155,20155,2026-03-06,499.24,Water delivery,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+156,20156,2026-03-07,341.76,Internet overage,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,STAMFORD,CT,6901,2035551818
+157,20157,2026-03-08,998.81,Gas service,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+158,20158,2026-03-09,1850.84,Paint touch-up,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+159,20159,2026-03-10,4014.64,photography flyers,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,STAMFORD OFFICE,300 Atlantic St,Stamford,CT,6901,2035551818
+160,20160,2026-03-11,2269.79,Light bulbs,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+161,20161,2026-03-12,3823.28,HVAC tune up,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+162,20162,2026-03-13,661.53,Breakroom supplies,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+163,20163,2026-03-14,4174.93,Broker event promo,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+164,20164,2026-03-15,1798.92,paint touch-up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+165,20165,2026-03-16,940.46,Printer toner,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+166,20166,2026-03-17,2507.74,Broker event promo,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+167,20167,2026-03-18,523.48,Paint touch-up,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+168,20168,2026-03-19,3827.1,Window repair,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+169,20169,2026-03-20,1152.81,electric bill,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,BROOKLYN HEIGHTS OFFICE,200 Montague St,Brooklyn,NY,11201,7185551616
+170,20170,2026-03-21,625.71,MLS premium placement,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+171,20171,2026-03-22,623.79,Desk chairs,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+172,20172,2026-03-23,1868.58,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+173,20173,2026-03-24,4194.77,Window repair,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,203-555-2020
+174,20174,2026-03-25,166.63,conference room cables,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+175,20175,2026-03-26,313.84,Paper order,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+176,20176,2026-03-27,1823.41,Water delivery,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+177,20177,2026-03-28,174,Conference room cables,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+178,20178,2026-03-29,990,Paper order,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+179,20179,2026-03-30,996.82,Paint touch-up,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+180,20180,2026-03-31,3336.15,light bulbs,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+181,20181,2026-04-01,2689.99,Photography flyers,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+182,20182,2026-04-02,476.11,Spring digital ads,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+183,20183,2026-04-03,2990.39,Window repair,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+184,20184,2026-04-04,3695.57,Light bulbs,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+185,20185,2026-04-05,1688.71,electric bill,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,PRINCETON OFFICE,55 Nassau St,Princeton,NJ,8542,6095551414
+186,20186,2026-04-06,4310.12,Shared workspace fee,5,Rent,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+187,20187,2026-04-07,2033.3,Office snacks,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+188,20188,2026-04-08,1466.66,MLS premium placement,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+189,20189,2026-04-09,178.03,Printer toner,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+190,20190,2026-04-10,1284.05,MLS premium placement,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+191,20191,2026-04-11,2126.26,Water delivery,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+192,20192,2026-04-12,428.19,paint touch-up,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,CHELSEA OFFICE,456 8th Ave,New York,NY,10001,2125551515
+193,20193,2026-04-13,3932.39,Carpet cleaning,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+194,20194,2026-04-14,10936.05,Storage room lease,5,Rent,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+195,20195,2026-04-15,2890.79,Paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+196,20196,2026-04-16,1140.27,gas service,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,CHELSEA OFFICE,456 8th Ave,New York,NY,10001,2125551515
+197,20197,2026-04-17,1382.7,Internet overage,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+198,20198,2026-04-18,10132.07,Shared workspace fee,5,Rent,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+199,20199,2026-04-19,1600.23,HVAC tune up,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+200,20200,2026-03-01,2390.34,Paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+201,20201,2026-03-02,853.27,Paper order,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+202,20202,2026-03-03,1957.67,MLS premium placement,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,201-555-1212
+203,20203,2026-03-04,691.99,Breakroom supplies,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+204,20204,2026-03-05,2371.17,Carpet cleaning,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+205,20205,2026-03-06,3759.42,Monthly branch rent,5,Rent,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+206,20206,2026-03-07,3091.52,Spring digital ads,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+207,20207,2026-03-08,159.01,Conference room cables,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+208,20208,2026-03-09,2283.9,Neighborhood mailers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+209,20209,2026-03-10,4081.96,Spring digital ads,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+210,20210,2026-03-11,490.43,breakroom supplies,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+211,20211,2026-03-12,21.15,Conference room cables,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+212,20212,2026-03-13,560.27,MLS premium placement,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+213,20213,2026-03-14,584.5,Photography flyers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+214,20214,2026-03-15,8957.62,Monthly branch rent,5,Rent,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,GREENWICH,CT,6830,2035551919
+215,20215,2026-03-16,2533.16,Window repair,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+216,20216,2026-03-17,89.82,Gas service,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+217,20217,2026-03-18,2437.63,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+218,20218,2026-03-19,6170.7,Monthly branch rent,5,Rent,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+219,20219,2026-03-20,2214.84,Electric bill,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+220,20220,2026-03-21,2177.74,Window repair,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+221,20221,2026-03-22,230.3,internet overage,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,WHITE PLAINS OFFICE,10 Main St,White Plains,NY,10601,9145551717
+222,20222,2026-03-23,1052.71,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,203-555-2020
+223,20223,2026-03-24,4193.6,Broker event promo,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+224,20224,2026-03-25,2174.93,gas service,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+225,20225,2026-03-26,1832.66,MLS premium placement,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+226,20226,2026-03-27,229.12,Desk chairs,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+227,20227,2026-03-28,2051.16,Gas service,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St.,New Haven,CT,6510,2035552020
+228,20228,2026-03-29,7905.36,Monthly branch rent,5,Rent,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+229,20229,2026-03-30,1496.36,HVAC tune up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+230,20230,2026-03-31,2143.69,Neighborhood mailers,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+231,20231,2026-04-01,1146.77,Conference room cables,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St.,Brooklyn,NY,11201,7185551616
+232,20232,2026-04-02,2391.58,electric bill,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+233,20233,2026-04-03,2299.18,Office snacks,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+234,20234,2026-04-04,2318.75,Spring digital ads,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+235,20235,2026-04-05,794.94,Conference room cables,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+236,20236,2026-04-06,4872.12,MLS premium placement,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+237,20237,2026-04-07,3558.1,paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+238,20238,2026-04-08,2113.25,spring digital ads,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+239,20239,2026-04-09,2619.19,light bulbs,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+240,20240,2026-04-10,1950.97,Internet overage,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+241,20241,2026-04-11,2155.76,water delivery,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,STAMFORD OFFICE,300 Atlantic St,Stamford,CT,6901,2035551818
+242,20242,2026-04-12,4527.29,Photography flyers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+243,20243,2026-04-13,872.46,Breakroom supplies,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+244,20244,2026-04-14,2246.07,HVAC tune up,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+245,20245,2026-04-15,7661.87,Shared workspace fee,5,Rent,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+246,20246,2026-04-16,851.73,Light bulbs,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+247,20247,2026-04-17,3582.49,Photography flyers,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+248,20248,2026-04-18,791.74,Internet overage,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+249,20249,2026-04-19,984.7,Conference room cables,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+250,20250,2026-03-01,1629.17,Electric bill,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+251,20251,2026-03-02,4750.28,MLS premium placement,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+252,20252,2026-03-03,1021.47,Carpet cleaning,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+253,20253,2026-03-04,708.61,Paper order,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+254,20254,2026-03-05,1446.42,Light bulbs,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+255,20255,2026-03-06,1661.8,Neighborhood mailers,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+256,20256,2026-03-07,825.51,Office snacks,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+257,20257,2026-03-08,54.26,gas service,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+258,20258,2026-03-09,816.35,Gas service,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+259,20259,2026-03-10,868.85,Paper order,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+260,20260,2026-03-11,3991.02,light bulbs,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+261,20261,2026-03-12,1592.84,Internet overage,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+262,20262,2026-03-13,710.43,Paint touch-up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+263,20263,2026-03-14,3314.66,Carpet cleaning,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+264,20264,2026-03-15,436.17,Internet overage,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+265,20265,2026-03-16,175.93,Gas service,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+266,20266,2026-03-17,3024.94,Light bulbs,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+267,20267,2026-03-18,11231.95,Storage room lease,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+268,20268,2026-03-19,2343.28,window repair,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,BROOKLYN HEIGHTS OFFICE,200 Montague St,Brooklyn,NY,11201,7185551616
+269,20269,2026-03-20,1678.69,neighborhood mailers,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,PRINCETON OFFICE,55 Nassau St,Princeton,NJ,8542,6095551414
+270,20270,2026-03-21,3958.59,Paint touch-up,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+271,20271,2026-03-22,1035.52,Printer toner,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+272,20272,2026-03-23,3788.96,Light bulbs,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+273,20273,2026-03-24,11539.34,Monthly branch rent,5,Rent,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+274,20274,2026-03-25,876.81,Conference room cables,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+275,20275,2026-03-26,829.5,conference room cables,4,Office Supplies,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,CHELSEA OFFICE,456 8th Ave,New York,NY,10001,2125551515
+276,20276,2026-03-27,2267.88,HVAC tune up,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+277,20277,2026-03-28,1506.02,Electric bill,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+278,20278,2026-03-29,778.64,Conference room cables,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+279,20279,2026-03-30,3727.63,Neighborhood mailers,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+280,20280,2026-03-31,2599.35,spring digital ads,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,STAMFORD OFFICE,300 Atlantic St,Stamford,CT,6901,2035551818
+281,20281,2026-04-01,2258.83,Gas service,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+282,20282,2026-04-02,1070.9,Water delivery,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+283,20283,2026-04-03,3130.42,Window repair,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+284,20284,2026-04-04,910.91,Window repair,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+285,20285,2026-04-05,768.19,Office snacks,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+286,20286,2026-04-06,773.99,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,203-555-2020
+287,20287,2026-04-07,2930.58,Spring digital ads,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+288,20288,2026-04-08,528.34,Office snacks,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+289,20289,2026-04-09,356.41,HVAC tune up,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+290,20290,2026-04-10,630.87,Internet overage,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+291,20291,2026-04-11,2499.83,Window repair,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+292,20292,2026-04-12,4004.36,HVAC tune up,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+293,20293,2026-04-13,4558.31,Broker event promo,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+294,20294,2026-04-14,2858.22,Paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+295,20295,2026-04-15,181.49,Paper order,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+296,20296,2026-04-16,626.74,Breakroom supplies,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+297,20297,2026-04-17,3964.04,Window repair,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+298,20298,2026-04-18,2349.25,MLS premium placement,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+299,20299,2026-04-19,2161.22,spring digital ads,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,STAMFORD OFFICE,300 Atlantic St,Stamford,CT,6901,2035551818
+300,20300,2026-03-01,359.52,Desk chairs,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+301,20301,2026-03-02,84.62,Water delivery,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+302,20302,2026-03-03,348.47,Internet overage,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+303,20303,2026-03-04,1069.77,Breakroom supplies,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+304,20304,2026-03-05,2480.02,Neighborhood mailers,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+305,20305,2026-03-06,319.68,Neighborhood mailers,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+306,20306,2026-03-07,1957.5,Office snacks,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+307,20307,2026-03-08,4189.55,Paint touch-up,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,203-555-2020
+308,20308,2026-03-09,989.62,conference room cables,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+309,20309,2026-03-10,544.75,Carpet cleaning,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+310,20310,2026-03-11,4002.83,Carpet cleaning,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+311,20311,2026-03-12,1803.54,Office snacks,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+312,20312,2026-03-13,1020.78,Breakroom supplies,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+313,20313,2026-03-14,144.72,printer toner,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+314,20314,2026-03-15,2961.05,Window repair,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+315,20315,2026-03-16,4113.53,MLS premium placement,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+316,20316,2026-03-17,11009.25,Storage room lease,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+317,20317,2026-03-18,2118.39,Office snacks,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+318,20318,2026-03-19,468.69,Desk chairs,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+319,20319,2026-03-20,339.09,Conference room cables,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+320,20320,2026-03-21,1482.25,Spring digital ads,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+321,20321,2026-03-22,227.91,window repair,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+322,20322,2026-03-23,2423.39,Water delivery,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+323,20323,2026-03-24,3657.7,Neighborhood mailers,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+324,20324,2026-03-25,1475.73,Gas service,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+325,20325,2026-03-26,201.65,Photography flyers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+326,20326,2026-03-27,673.81,Light bulbs,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+327,20327,2026-03-28,2164.02,internet overage,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+328,20328,2026-03-29,1738.71,Paint touch-up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+329,20329,2026-03-30,3493.89,Window repair,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+330,20330,2026-03-31,289.25,Electric bill,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+331,20331,2026-04-01,574.65,paper order,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+332,20332,2026-04-02,4556.25,Broker event promo,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+333,20333,2026-04-03,3567.57,Window repair,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+334,20334,2026-04-04,3163.55,MLS premium placement,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,212-555-1515
+335,20335,2026-04-05,126.55,Conference room cables,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+336,20336,2026-04-06,1573.72,Electric bill,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+337,20337,2026-04-07,241.23,Water delivery,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+338,20338,2026-04-08,680.04,Photography flyers,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+339,20339,2026-04-09,3326.37,Spring digital ads,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+340,20340,2026-04-10,1515.06,Broker event promo,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+341,20341,2026-04-11,2063.69,Internet overage,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+342,20342,2026-04-12,4004.68,Window repair,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St.,Brooklyn,NY,11201,7185551616
+343,20343,2026-04-13,1053.55,breakroom supplies,4,Office Supplies,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,PRINCETON OFFICE,55 Nassau St,Princeton,NJ,8542,6095551414
+344,20344,2026-04-14,3097.52,spring digital ads,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+345,20345,2026-04-15,792.93,Gas service,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+346,20346,2026-04-16,111.04,Water delivery,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+347,20347,2026-04-17,774.51,Printer toner,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+348,20348,2026-04-18,2279.02,Office snacks,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+349,20349,2026-04-19,6972.66,Monthly branch rent,5,Rent,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,NEW YORK,NY,10001,2125551515
+350,20350,2026-03-01,1298.28,Photography flyers,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+351,20351,2026-03-02,4873.77,Photography flyers,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+352,20352,2026-03-03,1097.12,HVAC tune up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,201-555-1212
+353,20353,2026-03-04,3118.73,HVAC tune up,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+354,20354,2026-03-05,3735.1,MLS premium placement,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+355,20355,2026-03-06,2710.5,Carpet cleaning,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+356,20356,2026-03-07,97.42,HVAC tune up,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+357,20357,2026-03-08,359.36,Photography flyers,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+358,20358,2026-03-09,2236.07,Office snacks,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St.,Brooklyn,NY,11201,7185551616
+359,20359,2026-03-10,10661.76,Monthly branch rent,5,Rent,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+360,20360,2026-03-11,1401.25,Electric bill,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+361,20361,2026-03-12,792,MLS premium placement,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+362,20362,2026-03-13,1669.16,Broker event promo,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+363,20363,2026-03-14,196.36,Light bulbs,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,STAMFORD,CT,6901,2035551818
+364,20364,2026-03-15,3043.49,MLS premium placement,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+365,20365,2026-03-16,2599.85,Spring digital ads,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+366,20366,2026-03-17,154.64,Electric bill,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+367,20367,2026-03-18,2414.28,Neighborhood mailers,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+368,20368,2026-03-19,4125.58,Photography flyers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,914-555-1717
+369,20369,2026-03-20,3277.54,MLS premium placement,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+370,20370,2026-03-21,1743.02,HVAC tune up,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,GREENWICH,CT,6830,2035551919
+371,20371,2026-03-22,2132.47,Internet overage,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+372,20372,2026-03-23,1148.1,Gas service,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+373,20373,2026-03-24,856.57,Breakroom supplies,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+374,20374,2026-03-25,3443.56,Light bulbs,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+375,20375,2026-03-26,885.57,Carpet cleaning,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St.,Brooklyn,NY,11201,7185551616
+376,20376,2026-03-27,2352.77,Carpet cleaning,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,201-555-1111
+377,20377,2026-03-28,3551.38,Carpet cleaning,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+378,20378,2026-03-29,921.52,Paper order,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+379,20379,2026-03-30,623.38,Carpet cleaning,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+380,20380,2026-03-31,2978.71,Carpet cleaning,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+381,20381,2026-04-01,4206.97,Photography flyers,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+382,20382,2026-04-02,2454.14,Office snacks,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+383,20383,2026-04-03,1457.09,Internet overage,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+384,20384,2026-04-04,187.01,paper order,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+385,20385,2026-04-05,11137.05,Shared workspace fee,5,Rent,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+386,20386,2026-04-06,7776.34,Storage room lease,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+387,20387,2026-04-07,4579.59,Spring digital ads,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+388,20388,2026-04-08,3925.61,HVAC tune up,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+389,20389,2026-04-09,991.81,Office snacks,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+390,20390,2026-04-10,3150.99,Paint touch-up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+391,20391,2026-04-11,3409.15,HVAC tune up,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+392,20392,2026-04-12,3555.81,Spring digital ads,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+393,20393,2026-04-13,1539.34,Neighborhood mailers,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+394,20394,2026-04-14,117.52,Printer toner,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+395,20395,2026-04-15,2135.75,Neighborhood mailers,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+396,20396,2026-04-16,992.15,Breakroom supplies,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+397,20397,2026-04-17,548.41,Conference room cables,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+398,20398,2026-04-18,991.72,Carpet cleaning,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+399,20399,2026-04-19,9489.85,Shared workspace fee,5,Rent,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,201-555-1111
+400,20400,2026-03-01,507.9,Office snacks,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+401,20401,2026-03-02,1685.47,MLS premium placement,3,Marketing,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+402,20402,2026-03-03,4305.42,Monthly branch rent,5,Rent,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+403,20403,2026-03-04,1050.31,Broker event promo,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+404,20404,2026-03-05,806.9,Paper order,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+405,20405,2026-03-06,845.57,Printer toner,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,201-555-1111
+406,20406,2026-03-07,3023.36,MLS premium placement,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+407,20407,2026-03-08,850.94,paper order,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+408,20408,2026-03-09,97.6,Paper order,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,201-555-1111
+409,20409,2026-03-10,568.76,Window repair,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+410,20410,2026-03-11,2593.81,Window repair,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+411,20411,2026-03-12,1834.24,Photography flyers,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+412,20412,2026-03-13,3610.91,Shared workspace fee,5,Rent,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+413,20413,2026-03-14,1820.36,gas service,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,STAMFORD OFFICE,300 Atlantic St,Stamford,CT,6901,2035551818
+414,20414,2026-03-15,4823.26,Spring digital ads,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+415,20415,2026-03-16,78.45,Paint touch-up,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+416,20416,2026-03-17,1041.38,Electric bill,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+417,20417,2026-03-18,383.1,Printer toner,4,Office Supplies,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+418,20418,2026-03-19,2692.59,Light bulbs,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+419,20419,2026-03-20,958.87,light bulbs,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+420,20420,2026-03-21,4913.7,Photography flyers,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,STAMFORD,CT,6901,2035551818
+421,20421,2026-03-22,2480.32,gas service,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,CHELSEA OFFICE,456 8th Ave,New York,NY,10001,2125551515
+422,20422,2026-03-23,573.14,Broker event promo,3,Marketing,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+423,20423,2026-03-24,286.27,Printer toner,4,Office Supplies,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
+424,20424,2026-03-25,3827.65,light bulbs,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,JERSEY CITY OFFICE,90 Hudson St,Jersey City,NJ,7302,2015551212
+425,20425,2026-03-26,326.89,Water delivery,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+426,20426,2026-03-27,834.52,Breakroom supplies,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+427,20427,2026-03-28,3226.02,HVAC tune up,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+428,20428,2026-03-29,6143.43,Storage room lease,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+429,20429,2026-03-30,587.2,Office snacks,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+430,20430,2026-03-31,2069.63,Window repair,2,Maintenance,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+431,20431,2026-04-01,363.92,Water delivery,1,Utilities,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+432,20432,2026-04-02,1163.6,Water delivery,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+433,20433,2026-04-03,898.79,Gas service,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+434,20434,2026-04-04,292.35,Paper order,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St.,Hoboken,NJ,7030,2015551111
+435,20435,2026-04-05,826.87,breakroom supplies,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+436,20436,2026-04-06,68.23,Conference room cables,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,2035551818
+437,20437,2026-04-07,1524.35,Broker event promo,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+438,20438,2026-04-08,2127.02,Carpet cleaning,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+439,20439,2026-04-09,1682.08,HVAC tune up,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+440,20440,2026-04-10,195.32,Carpet cleaning,2,Maintenance,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+441,20441,2026-04-11,1696.89,Water delivery,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+442,20442,2026-04-12,158.62,Breakroom supplies,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+443,20443,2026-04-13,1738.69,Neighborhood mailers,3,Marketing,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+444,20444,2026-04-14,3676.9,MLS premium placement,3,Marketing,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,NEW HAVEN,CT,6510,2035552020
+445,20445,2026-04-15,869.8,paper order,4,Office Supplies,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+446,20446,2026-04-16,3989.07,window repair,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,BROOKLYN HEIGHTS OFFICE,200 Montague St,Brooklyn,NY,11201,7185551616
+447,20447,2026-04-17,2549.15,internet overage,1,Utilities,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,GREENWICH OFFICE,40 Field Point Rd,Greenwich,CT,6830,2035551919
+448,20448,2026-04-18,3003.8,Paint touch-up,2,Maintenance,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,STAMFORD,CT,6901,2035551818
+449,20449,2026-04-19,3914.11,HVAC tune up,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+450,20450,2026-03-01,136.93,Light bulbs,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+451,20451,2026-03-02,1750.86,MLS premium placement,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,718-555-1616
+452,20452,2026-03-03,2267.5,Water delivery,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+453,20453,2026-03-04,2122.91,Internet overage,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+454,20454,2026-03-05,1065.63,Printer toner,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,WHITE PLAINS,NY,10601,9145551717
+455,20455,2026-03-06,3754.9,Storage room lease,5,Rent,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+456,20456,2026-03-07,1908.52,Electric bill,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,MONTCLAIR,NJ,7042,9735551313
+457,20457,2026-03-08,530.88,Paper order,4,Office Supplies,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,Brooklyn,NY,11201,7185551616
+458,20458,2026-03-09,2510.08,office snacks,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+459,20459,2026-03-10,2443.7,Paint touch-up,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,PRINCETON,NJ,8542,6095551414
+460,20460,2026-03-11,8988.5,Storage room lease,5,Rent,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+461,20461,2026-03-12,6623.64,Storage room lease,5,Rent,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,2035551919
+462,20462,2026-03-13,831.52,Gas service,1,Utilities,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St.,Stamford,CT,6901,2035551818
+463,20463,2026-03-14,9384.55,Monthly branch rent,5,Rent,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St.,New Haven,CT,6510,2035552020
+464,20464,2026-03-15,1633.43,water delivery,1,Utilities,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,HOBOKEN OFFICE,123 River St,Hoboken,NJ,7030,2015551111
+465,20465,2026-03-16,1030.02,Desk chairs,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+466,20466,2026-03-17,1678.24,Water delivery,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+467,20467,2026-03-18,4493.13,Photography flyers,3,Marketing,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St,BROOKLYN,NY,11201,7185551616
+468,20468,2026-03-19,189.42,HVAC tune up,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+469,20469,2026-03-20,972.17,Paper order,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+470,20470,2026-03-21,1690.7,Office snacks,1,Utilities,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,Jersey City,NJ,7302,2015551212
+471,20471,2026-03-22,939.63,Breakroom supplies,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+472,20472,2026-03-23,11695.47,monthly branch rent,5,Rent,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,MONTCLAIR OFFICE,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+473,20473,2026-03-24,6441.9,Storage room lease,5,Rent,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St,JERSEY CITY,NJ,7302,2015551212
+474,20474,2026-03-25,2314.38,Water delivery,1,Utilities,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St.,White Plains,NY,10601,9145551717
+475,20475,2026-03-26,155.39,Desk chairs,4,Office Supplies,47,Jaylah,Hodges,Agent,jaylahhodges@dreamhomesnyc.com,2035550047,8,Stamford Office,300 Atlantic St,Stamford,CT,6901,203-555-1818
+476,20476,2026-03-27,1299.75,Neighborhood mailers,3,Marketing,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,6095551414
+477,20477,2026-03-28,283.21,carpet cleaning,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,PRINCETON OFFICE,55 Nassau St,Princeton,NJ,8542,6095551414
+478,20478,2026-03-29,953.09,Desk chairs,4,Office Supplies,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+479,20479,2026-03-30,2542.03,Electric bill,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,973-555-1313
+480,20480,2026-03-31,4276.25,Shared workspace fee,5,Rent,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+481,20481,2026-04-01,47.19,HVAC tune up,2,Maintenance,32,Titan,Griffin,Senior Agent,titangriffin@dreamhomesnyc.com,7185550032,6,Brooklyn Heights Office,200 Montague St.,Brooklyn,NY,11201,7185551616
+482,20482,2026-04-02,605.43,Printer toner,4,Office Supplies,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,Hoboken,NJ,7030,2015551111
+483,20483,2026-04-03,3978.27,Carpet cleaning,2,Maintenance,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+484,20484,2026-04-04,3756.23,HVAC tune up,2,Maintenance,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St.,Princeton,NJ,8542,6095551414
+485,20485,2026-04-05,4826.41,MLS premium placement,3,Marketing,2,Bronson,McCullough,Senior Agent,bronsonmccullough@dreamhomesnyc.com,2015550002,1,Hoboken Office,123 River St,HOBOKEN,NJ,7030,2015551111
+486,20486,2026-04-06,274.74,Internet overage,1,Utilities,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+487,20487,2026-04-07,445.86,Internet overage,1,Utilities,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+488,20488,2026-04-08,4037.8,Broker event promo,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+489,20489,2026-04-09,2308.46,Carpet cleaning,2,Maintenance,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+490,20490,2026-04-10,125.05,paper order,4,Office Supplies,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,NEW HAVEN OFFICE,275 Chapel St,New Haven,CT,6510,2035552020
+491,20491,2026-04-11,665.32,Water delivery,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+492,20492,2026-04-12,1228.87,Electric bill,1,Utilities,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+493,20493,2026-04-13,989.66,Electric bill,1,Utilities,23,Ellianna,Nixon,Agent,elliannanixon@dreamhomesnyc.com,609-555-0023,4,Princeton Office,55 Nassau St,Princeton,NJ,8542,609-555-1414
+494,20494,2026-04-14,902.47,Window repair,2,Maintenance,15,Zaylee,Trejo,Agent,zayleetrejo@dreamhomesnyc.com,9735550015,3,Montclair Office,18 Bloomfield Ave,Montclair,NJ,7042,9735551313
+495,20495,2026-04-15,3878.42,Carpet cleaning,2,Maintenance,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,Greenwich,CT,6830,203-555-1919
+496,20496,2026-04-16,3970.71,MLS premium placement,3,Marketing,29,Reese,Chapman,Agent,reesechapman@dreamhomesnyc.com,2125550029,5,Chelsea Office,456 8th Ave,New York,NY,10001,2125551515
+497,20497,2026-04-17,5697.07,Shared workspace fee,5,Rent,59,Sergio,Harrison,Agent,sergioharrison@dreamhomesnyc.com,2035550059,10,New Haven Office,275 Chapel St,New Haven,CT,6510,2035552020
+498,20498,2026-04-18,3444.9,Spring digital ads,3,Marketing,38,Abner,Booth,Senior Agent,abnerbooth@dreamhomesnyc.com,9145550038,7,White Plains Office,10 Main St,White Plains,NY,10601,9145551717
+499,20499,2026-04-19,2489.73,MLS premium placement,3,Marketing,52,Thalia,Sierra,Agent,thaliasierra@dreamhomesnyc.com,203-555-0052,9,Greenwich Office,40 Field Point Rd,GREENWICH,CT,6830,2035551919
+500,20500,2026-03-01,299.3,HVAC tune up,2,Maintenance,11,Nayeli,Robertson,Agent,nayelirobertson@dreamhomesnyc.com,2015550011,2,Jersey City Office,90 Hudson St.,Jersey City,NJ,7302,2015551212
